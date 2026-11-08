@@ -1,12 +1,12 @@
-![alt text](https://raw.githubusercontent.com/jcamp-code/RazorLight/main/assets/razorlight_logo_64x64.png "RazorLight")
+![alt text](https://raw.githubusercontent.com/simonefil/RazorLight/main/assets/razorlight_logo_64x64.png "RazorLight")
 
 # RazorLight
 
 Use Razor to build templates from Files / EmbeddedResources / Strings / Database or your custom source outside of ASP.NET MVC. No redundant dependencies and workarounds in pair with excellent performance and **.NET 10.0** support.
 
-Forked from original by [@toddams](https://github.com/toddams/RazorLight/)
+Forked from [jcamp-code/RazorLight](https://github.com/jcamp-code/RazorLight), itself a fork of the original by [@toddams](https://github.com/toddams/RazorLight/)
 
-My packages are the same names, but prefixed with jcamp. to differentiate them.
+The package keeps the original name, prefixed with `simonefil.` to differentiate it.
 
 The original repo has not been updated in two years and I needed some updates to the package that were provided by various PRs. I've tried to give all credit where due.
 
@@ -28,7 +28,7 @@ The original repo has not been updated in two years and I needed some updates to
 Install the nuget package using following command:
 
 ```
-Install-Package RazorLight -Version 3.0.0
+Install-Package simonefil.RazorLight -Version 3.0.1
 ```
 
 The simplest scenario is to create a template from string. Each template must have a `templateKey` that is associated with it, so you can render the same template next time without recompilation.

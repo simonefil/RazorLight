@@ -5,16 +5,16 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>jcamp.RazorLight</PackageId>
+    <PackageId>simonefil.RazorLight</PackageId>
     <Title>RazorLight</Title>
     <Description>Use Razor to build your templates from strings / files / EmbeddedResources outside of ASP.NET MVC for .NET Core</Description>
-    <Authors>toddams;Github Contributors;johncampionjr</Authors>
+    <Authors>toddams;Github Contributors;johncampionjr;simonefil</Authors>
     <PackageTags>RazorLight, razor, render, dotnet-core, dotnet, core, template-engine, email, emails</PackageTags>
     <PackageIcon>razorlight_logo_64x64.png</PackageIcon>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/jcamp-code/RazorLight</RepositoryUrl>
+    <RepositoryUrl>https://github.com/simonefil/RazorLight</RepositoryUrl>
     <IsPackable>true</IsPackable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
